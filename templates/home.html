@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>newhome</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="/static/Header-Blue.css">
+    <link rel="stylesheet" href="/static/Navigation-Clean.css">
+    <link rel="stylesheet" href="/static/Navigation-with-Button.css">
+    <link rel="stylesheet" href="/static/NZTextarea.css">
+    <link rel="stylesheet" href="/static/Section-Title.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body class="font-monospace text-nowrap" style="transform: translate(-22px);text-shadow: 0px 0px var(--bs-gray-500);background: var(--bs-body-bg);">
+    <header>
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button">
+        <div class="container"><img class="rounded-circle shadow-lg" src="static/60580.png" style="font-size: 7px;margin-right: 0px;margin-left: 0px;box-shadow: 0px 0px var(--bs-gray);" width="200px"><a class="navbar-brand" href="#" style="margin-right: 550px;height: 45px;padding-top: 0px;padding-bottom: 0px;width: 300px;font-size: 60px;line-height: 50px;color: var(--bs-dark);text-shadow: 1px 0px 4px var(--bs-secondary);">Arabic Sentiment Analysis</a></div>
+    </nav>
+    <div class="title-div" style="font-size: 50px;width: 500px;height: 60px;color: #172a74;">
+    
+    <h1 style="color: rgb(23, 42, 116);font-family: 'Open Sans', sans-serif;text-align: center;font-weight: bold;">ENter your tweet</h1>
+</div>
+</header>
+<div>
+<form action="{{ url_for('predict')}}" method="POST">
+    <center>
+<textarea name="v2" class="border rounded-circle" style="width: 90%;border-radius: 10px;height: 150px;margin: 90px;margin-top: 100px;box-shadow: 0px 5px 9px rgb(17,20,23);border: 10px double var(--bs-body-color);border-top: 10px solid var(--bs-gray-900);text-align: center;" placeholder="Enter your tweet in Arabic">
+</textarea>
+<input type="submit" value="predict" style="margin: 0px;margin-right: 0px;margin-left: 0px;margin-bottom: 70px;border-top-width: 2px;border-top-color: var(--bs-gray-900);border-right-width: 2px;border-right-color: var(--bs-dark);border-bottom-width: 2px;border-bottom-color: var(--bs-gray-900);transform: translate(-800px);" >
+</center>
+</form>
+</div>
+
+<script src="static/bootstrap.min.js"></script> 
+
+</body>
+
+</html>
