@@ -50,5 +50,8 @@ The rest should look like this: (you can run the app on the given link)
 # Anaconda Installation documentation
 https://docs.anaconda.com/anaconda/install/index.html
 
+# Recording of the app 
+https://drive.google.com/drive/folders/1N0sNRb6PwV1W8rcM9GKS2j9-cFUWzKG6?usp=sharing
+
 
        
